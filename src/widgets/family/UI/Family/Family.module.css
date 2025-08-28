@@ -1,0 +1,159 @@
+.family {
+    background-color: var(--color-blue);
+    padding: 110px 0px;
+    position: relative;
+}
+
+.family__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.family__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.family__text {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.family__img {
+    position: relative;
+    left: 100px;
+    margin-bottom: -140px;
+}
+
+.family__button {
+    z-index: 1;
+}
+
+.family__link {
+    background-color: var(--color-blue-dark);
+    color: var(--color-white);
+    padding: 15px 80px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+@media (max-width: 1440px) {
+    .family {
+        padding: 80px 0px;
+    }
+
+    .family__title {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .family__text {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .family__img {
+        left: 20px;
+        margin-bottom: -70px;
+        width: 800px;
+    }
+
+    .family__link {
+        padding: 12px 70px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .family {
+        padding: 50px 0px;
+    }
+
+    .family__title {
+        font-size: 32px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .family__text {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .family__img {
+        left: 30px;
+        margin-bottom: -50px;
+        width: 90%;
+    }
+
+    .family__link {
+        padding: 12px 70px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 640px) {
+    .family {
+        padding: 40px 0px;
+    }
+
+    .family__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .family__text {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .family__img {
+        left: 30px;
+        margin-bottom: -30px;
+        width: 90%;
+    }
+
+    .family__link {
+        padding: 11px 50px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 475px) {
+    .family {
+        padding: 40px 0px 60px;
+    }
+
+    .family__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .family__text {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .family__img {
+        left: 10px;
+        margin-bottom: -10px;
+        width: 95%;
+    }
+
+    .family__link {
+        padding: 10px 50px;
+        font-size: 18px;
+    }
+}

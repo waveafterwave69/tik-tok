@@ -1,0 +1,32 @@
+.item {
+    background-color: var(--color-blue-dark);
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px -1px var(--color-blue);
+}
+
+.item__text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item__text a {
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-pink);
+}
+
+@media (max-width: 768px) {
+    .item {
+        padding: 20px 20px;
+        box-shadow: 0px 0px 3px -1px var(--color-blue);
+    }
+
+    .item__text {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .item__text a {
+        border-bottom: 2px solid var(--color-pink);
+    }
+}

@@ -1,0 +1,26 @@
+.film {
+    margin-top: 80px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+    .film {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .film {
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 475px) {
+    .film {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+}

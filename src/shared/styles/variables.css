@@ -1,0 +1,16 @@
+:root {
+    --container-width: 1520px;
+    --container-padding-x: 24px;
+    --container-padding-mobile-x: 16px;
+
+    --font-family: "Montserrat", sans-serif;
+    --font-family-2: "Rubik", sans-serif;
+    --font-family-3: "Roboto Mono", monospace;
+
+    --color-white: #EBFAFF;
+    --color-blue: #228EE5;
+    --color-pink: #EC5BAA;
+    --color-blue-dark: #030A1B;
+
+    --transition-duration: 0.2s;
+}

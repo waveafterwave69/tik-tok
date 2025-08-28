@@ -1,0 +1,15 @@
+.button {
+    width: 64px;
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 54px;
+    }
+}
+
+@media (max-width: 475px) {
+    .button {
+        width: 52px;
+    }
+}
